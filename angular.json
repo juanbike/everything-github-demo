@@ -116,9 +116,16 @@
               "devServerTarget": "everything-github-demo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "everything-github-demo"
+  "defaultProject": "everything-github-demo",
+  "cli": {
+    "analytics": "e1048782-057d-45ad-b737-5f40afe8b6b8"
+  }
 }
